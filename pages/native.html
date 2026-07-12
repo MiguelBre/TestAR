@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="../CSS/style.css" />
+    <!-- <link rel="stylesheet" href="../CSS/style.css" /> -->
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
@@ -12,12 +12,24 @@
   </head>
   <body>
     <model-viewer
+      id="viewer"
       src="../modelos/cansScaleUpdate.glb"
+      alt="Modelo 3D de latas"
       ar
       ar-modes="scene-viewer webxr"
       camera-controls
       auto-rotate
+      style="
+        display: block;
+        width: 90vw;
+        height: 70vh;
+        margin: 20px auto;
+        background-color: #eeeeee;
+      "
     >
+      <button slot="ar-button" class="ar-button">
+        Visualizar em meu espaço
+      </button>
     </model-viewer>
   </body>
 </html>
