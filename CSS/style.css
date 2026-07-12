@@ -2,14 +2,16 @@
   font-family: "Comic Sans MS", "Comic Sans", cursive, sans-serif;
 }
 
+html,
 body {
-  min-height: 90vh;
-  min-width: 80vw;
+  height: 100vh;
+  width: 100vw;
 }
 
 model-viewer {
-  height: 80%;
-  width: 80%;
+  width: 90%;
+  height: 70%;
+  margin: 20px auto;
 }
 
 .nav-div {
@@ -47,7 +49,7 @@ a {
   align-items: center;
 }
 
-#ar-container {
+/* #ar-container {
   width: 100vw;
 
   height: 100vh;
@@ -73,4 +75,4 @@ a {
   transform: translateX(-50%);
 
   padding: 15px;
-}
+} */

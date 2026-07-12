@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- <link rel="stylesheet" href="../CSS/style.css" /> -->
     <script
       type="module"
       src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
     ></script>
+    <link rel="stylesheet" href="../CSS/style.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Model Viewer</title>
@@ -19,17 +19,7 @@
       ar-modes="scene-viewer webxr"
       camera-controls
       auto-rotate
-      style="
-        display: block;
-        width: 90vw;
-        height: 70vh;
-        margin: 20px auto;
-        background-color: #eeeeee;
-      "
     >
-      <button slot="ar-button" class="ar-button">
-        Visualizar em meu espaço
-      </button>
     </model-viewer>
   </body>
 </html>
