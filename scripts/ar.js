@@ -18,7 +18,7 @@ export async function iniciarAR() {
   const mindarThree = new MindARThree({
     container: document.querySelector("#ar-container"),
 
-    imageTargetSrc: "/targets/marker.mind",
+    imageTargetSrc: "/targets/targets.mind",
   });
 
   renderer = mindarThree.renderer;
@@ -27,7 +27,7 @@ export async function iniciarAR() {
 
   camera = mindarThree.camera;
 
-  modelo = await carregarModelo("/models/motor.glb");
+  modelo = await carregarModelo("../modelos/cansScaleUpdate");
 
   const anchor = mindarThree.addAnchor(0);
 
