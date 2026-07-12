@@ -1,24 +1,24 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <script src="app.js"></script>
-    <script
-      type="module"
-      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
-    ></script>
-    <title>TestAR</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AR Application</title>
   </head>
   <body>
-    <model-viewer
-      src="modelos/cansScaleUpdate.glb"
-      ar
-      ar-modes="scene-viewer webxr"
-      camera-controls
-      auto-rotate
-    >
-    </model-viewer>
+    <div class="title-text">
+      <h1>BEM-VINDO À:</h1>
+      <h1>APLICAÇÃO TESTE DE AR</h1>
+    </div>
+    <div class="nav-div">
+      <a href="pages/native.html">Teste Viewer</a>
+      <a href="pages/mindTest.html">Teste MindAR</a>
+    </div>
+    <div class="gif-div">
+      <img src="images/cat-spinning.gif" alt="cat-spinning" />
+      <img src="images/sneaky-cadaver.gif" alt="sneaky-cadaver" />
+    </div>
   </body>
 </html>
